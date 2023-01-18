@@ -1,5 +1,15 @@
 <template>
   <main>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-113QGL8Y21"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-113QGL8Y21');
+    </script>
+    
     <section class="self-center flex flex-col flex-1 items-center justify-center">
       <h1 class="title text-center">Nuxt — Tailwind — Netlify CMS</h1>
       <h2 class="subtitle text-center">Boilerplate</h2>
