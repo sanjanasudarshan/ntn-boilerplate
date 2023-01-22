@@ -31,6 +31,13 @@ export default {
         content: SITE_INFO.sitedescription || process.env.npm_package_description || ''
       }
     ],
+    script: [
+      {
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+        'data-ad-client': "ca-pub-xxxx",
+        async: true
+      }
+    ],
     link: [
       {
         rel: 'preconnect',
